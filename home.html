@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    <title>Principal</title> <meta
+    charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="estilos_principal.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/25c5e8dc28.js" crossorigin="anonymous"></script>
+
+
+    </head>
+
+    <body>
+
+        <nav id = "tt" class="navbar navbar-expand-lg navbar-light bg-light" >
+            <a class="navbar-brand" href="#"> ASOTAMI </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{url_for('about')}}">Sobre Nosostros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{url_for('noticias')}}">Noticias</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{url_for('historia')}}">Historia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{url_for('servicios')}}">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{url_for('contacto')}}">Contacto</a>
+                    </li>
+                </ul>
+        
+         </nav>
+
+         <div class="jumbotron">
+            <div class="container">
+                <div class="row">
+                  <div class="col-sm-7">
+
+                    <h5 class="font_format">Unete a nuestro equipo</h5>
+                    <h1 class="display-4">Aprende el camino de la defensa personal sin armas</h1>
+                    <br>
+                    <br>
+                    <p>Visitanos en Costa Rica, Puntarenas, Montes de Oro, Miramar, frente al Banco Nacional</p>
+                    <a href=""><i id="icon1" class="fa fa-whatsapp" ></i></a>
+                    <a href="https://www.facebook.com/asotami"><i id="icon2" class="fa fa-facebook-square"></i></a>
+                    <a href="https://www.google.es/maps/@10.0926579,-84.7307977,21z?hl=es"><i id="icon3" class="fa-solid fa-map-location"></i></a>
+
+                    
+
+                  </div>
+                  <div class="col-sm">
+                    <img id= asotami_logo src="img/Asotami.png">
+
+
+                  </div>
+                </div>
+              </div>
+           
+          </div>
+
+          <div class="afiliaciones">
+            <h3>Afiliaciones</h3>
+            <a href="https://www.icoder.go.cr/"> <img class="icoder" src="img/logo_icoder.jpg"> </a>
+            <a href="https://www.tkdcrc.org/"> <img class="icoder" src="img/FCT.jpg"> </a>
+            <a href="https://www.facebook.com/ccdrmontesdeoro/"> <img class="icoder" src="img/CCDR.jpg"> </a>
+          </div>
+
+
+          <div class="testimonios">
+            <h2 id="titulo_testimonio">Testimonios</h2>
+            <p>Nuestros estudiantes aman lo que hacemos y queremos compartirte sus palabras</p>
+          </div>
+
+          <div id="row1" class="row" style="text-align: center;">
+            <div id="testimonio1" class="col-sm">
+
+              <div class="card">
+                <i id="profile_icon" class="fa-solid fa-user"></i>
+                <p style="font-weight:bold ;padding-bottom: 0%;">Eunice Portilla</p>
+                <p style="font-weight:lighter">Estudiante</p>
+                <div class="card-body">
+                  <p class="card-text">Los entrenamientos son muy dinamicos, divertidos, exigentes y adaptados a la realidad del combate
+                    <br>
+                  </p>
+                </div>
+              </div>
+
+            </div>
+            <div id="testimonio2" class="col-sm">
+
+              <div  class="card">
+                <i id="profile_icon" class="fa-solid fa-user"></i>
+                <p style="font-weight:bold ;">Mayra Benavides</p>
+                <p style="font-weight:lighter;">Madre de familia</p>
+                <div class="card-body">
+                  <p class="card-text">Valores como: cortesía, honor, modestia, paciencia, autocontrol y coraje son enseñados</p>
+                </div>
+              </div>
+
+            </div>
+            <div id="testimonio3" class="col-sm">
+
+              <div  class="card">
+                <i id="profile_icon" class="fa-solid fa-user"></i>
+                <p style="font-weight:bold ;">Joel Ramirez</p>
+                <p style="font-weight:lighter;">Estudiante</p>
+
+                <div class="card-body">
+                  <p class="card-text">El Taekwondo me ha ayudado a mejorar mi salud fisica, mental y emocional.</p>
+                </div>
+              </div>
+
+
+            </div>
+
+        </div>
+
+
+        <div class="jumbotron" style="padding-top: 1%;">
+          <div class="row">
+            <div class="col-sm-8">
+              <p class="lead" style="font-size: 28px; font-weight: bold;"> Comunicate con nosotros para agendar tu primera entrenamiento</p>
+              <a class="btn btn-primary btn-lg" href="#" role="button">Contactanos</a>
+            </div>
+
+            <div class="col-sm-4" >
+              <img style="max-width: 50%;"src="img/asotami_exam.jpg" alt="">
+            </div>
+          
+        </div>
+
+    </body>
+
+    <nav id = "piepag" class="navbar navbar-expand-lg navbar-light bg-light" >
+
+      <div class="collapse navbar-collapse" id="navbarNav"> 
+      <p id = "CC" >ASOTAMI  Todos los derechos reservados © </p>
+      
+            <ul id = "piepag1" class="navbar-nav"> 
+                <li class="nav-item" >
+                    <a id = "piepag1" class="nav-link active" aria-current="page" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id = "piepag1" class="nav-link" href="">Sobre Nosostros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id = "piepag1" class="nav-link" href="">Noticias</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id = "piepag1" class="nav-link" href="">Historia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id = "piepag1" class="nav-link" href="">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id = "piepag1" class="nav-link" href="">Contacto</a>
+                </li>
+            </ul>
+      
+      </nav>
+
+
+
+</html>
